@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def upppercase(str):
+def uppercase(str):
     for iterator in str:
         temp = iterator
         if ord(temp) >= 97 and ord(temp) <= 122:
