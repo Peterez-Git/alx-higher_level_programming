@@ -49,7 +49,6 @@ int compare_lists(listint_t *head, listint_t *middle, int len);
  * @len: length of the list
  * Return: if the same 1, if not 0
  */
-
 int compare_lists(listint_t *head, listint_t *middle, int len)
 {
 	int i;
