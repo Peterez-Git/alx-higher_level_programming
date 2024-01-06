@@ -9,10 +9,9 @@ int compare_lists(listint_t *head, listint_t *middle, int len);
  *
  * @head: pointer to another pointer of the first node in the list
  *
- * Return : 1 if a palidrome is detected and 0 if not
+ * Return : 0 if a palidrome isn't detected and 1 if yes
  *
  */
-
  int is_palindrome(listint_t **head)
 {
 	int len, i;
