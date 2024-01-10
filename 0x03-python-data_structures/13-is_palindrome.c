@@ -81,6 +81,7 @@ void reverse(listint_t **head)
 	{
 		next = current->next;
 		current->next = prev;
+		prev = current;
 		current = next;
 	}
 	*head = prev;
