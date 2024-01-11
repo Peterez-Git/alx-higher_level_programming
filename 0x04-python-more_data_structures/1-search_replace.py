@@ -1,6 +1,8 @@
 def search_replace(my_list, search, replace):
-    replace_list = my_list.copy()
-    for index, x in enumerate(my_list):
-        if search == x:
-            replace_list[index] = replace
+    replace_list = []
+    for i in my_list:
+        if search == i:
+            replace_list.append(replace)
+        else:
+            replace_list.append(i)
     return replace_list
