@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
-    i, e = 0, 0
-    while p < x:
+    i, c = 0, 0
+    while i < x:
         try:
             print('{:d}'.format(my_list[i]), end='')
-            e += 1
+            c += 1
         except (ValueError, TypeError):
             pass
         i += 1
     print()
-    return e
+    return c
