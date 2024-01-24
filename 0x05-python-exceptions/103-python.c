@@ -23,7 +23,7 @@ void print_python_list(PyObject *p)
 	size = var->ob_size;
 	alloc = list->allocated;
 
-	flush(stdout);
+	fflush(stdout);
 
 	printf("[*] Python list info\n");
 	if (strcmp(p->ob_type->tp_name, "list") != 0)
