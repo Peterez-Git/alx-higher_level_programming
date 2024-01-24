@@ -15,7 +15,7 @@ void print_python_float(PyObject *p);
  */
 void print_python_list(PyObject *p)
 {
-	Py_size_t size, alloc, i;
+	Py_ssize_t size, alloc, i;
 	const char *type;
 	PyListObject *list = (PyListObject *)p;
 	PyVarObject *var = (PyVarObject *)p;
