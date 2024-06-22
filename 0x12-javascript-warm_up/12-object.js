@@ -1,9 +1,9 @@
 #!/usr/bin/node
-
-const arg2 = process.argv;
-
-if (arg2[2] === undefined) {
-  console.log('No argument');
-} else {
-  console.log(arg2[2]);
-}
+/* Update this script to replace the value 12 with 89: */
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
+myObject.value = 89;
+console.log(myObject);
