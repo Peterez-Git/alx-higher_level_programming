@@ -11,7 +11,7 @@ if __name__ == "__main__":
     c = db.cusor()
     c.execute("SELECT * FROM states WHERE name LIKE BINARY '{}'"
                 .format(sys.argv[4]))
-    row = c.fetchall()
+    rows = c.fetchall()
     for row in rows:
         print(row)
     c.close()
