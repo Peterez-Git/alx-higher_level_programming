@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """  A script that lists all State objects from the database hbtn_0e_6_usa  """
 
-if __name == "__main__":
+if __name__ == "__main__":
 
     from sqlalchemy import create_engine
     from sqlalchemy.ext.declarative import declarative_base
